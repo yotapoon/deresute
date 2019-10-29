@@ -9,6 +9,8 @@ simple_feature.ipynb
 
 ### step2
 word2vec.ipynb
+ここでは「ゼロから始めるディープラーニング2」のch04とcommonというディレクトリが必要になる。以下を参照：
+https://github.com/oreilly-japan/deep-learning-from-scratch-2
 simple_feature.ipynbと同様に、アイドルコメントを単語ごとに分解しベクトルに変換する。最後にSVMにより分類を行う。random_forestよりは少し精度が上がる。
 また混同行列により、どのようなコメントに対し誤った分類を行っているか、どのタイプが見分けづらいかということも確認することが出来る。
 
